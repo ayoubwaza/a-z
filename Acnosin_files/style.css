@@ -1634,8 +1634,9 @@ select::-ms-expand {
   .prod_bl5_mob {
     position: absolute;
     bottom: -7px;
-    left: -7px;
+    right: -15%;
     z-index: 11;
+    width: 200px;
   }
 
   .printing_bl5_mob {

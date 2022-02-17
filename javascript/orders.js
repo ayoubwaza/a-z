@@ -26,16 +26,8 @@ $("#ordering").on("submit", function (e) {
         console.log("it worked");
       },
     });
-    request.done(function (response, textStatus, jqXHR) {
-      console.log("Hooray, it worked!");
-      console.log(response);
-    });
-    request.fail(function (jqXHR, textStatus, errorThrown) {
-      console.error("The following error occurred: " + textStatus, errorThrown);
-    });
     request.always(function (e) {
       $inputs.prop("disabled", false);
-      console.log("It's running");
       setTimeout(function () {
         window.location.href = "success.html";
       }, 300);
