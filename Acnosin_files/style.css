@@ -126,7 +126,31 @@ body {
 .block1 {
   min-height: 537px;
 }
+.howtouse {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:#56bdaa;
+  color: #fff;
+  line-height: 2;
+}
 
+.child  {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.each_how {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 .limite {
   max-width: 945px;
   width: 100%;
