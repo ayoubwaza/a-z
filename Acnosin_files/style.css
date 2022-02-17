@@ -263,6 +263,11 @@ body {
   margin-left: 80px;
   margin-bottom: 14px;
   padding-right: 20px;
+  margin-bottom: 14px;
+  position: relative;
+  left:-5%;
+  margin-top: 20px;
+
 }
 
 .line_text2 {
@@ -280,6 +285,9 @@ body {
   margin-left: 80px;
   margin-bottom: 14px;
   padding-right: 20px;
+  position: relative;
+  margin-top: 20px;
+  left:-5%
 }
 .line_text3 {
   border-start-start-radius: 50%;
@@ -296,6 +304,8 @@ body {
   margin-left: 80px;
   margin-bottom: 14px;
   padding-right: 20px;
+  position: relative;
+  left:-5%;
 }
 .text2_block1 {
   text-align: center;
@@ -377,7 +387,7 @@ body {
   color: white;
   background-color: #f9a717;
   padding: 20px 80px;
-  font-size: 19px;
+  font-size: 1.2em !important;
   font-weight: bold;
   border: 3px solid #ffdda0;
   border-radius: 10px;
@@ -965,7 +975,7 @@ select::-ms-expand {
   color: white;
   background-color: #f9a717;
   padding: 20px 7px;
-  font-size: 30px;
+  font-size: 1.1em !important;
   font-weight: bold;
   border: 3px solid #ffdda0;
   border-radius: 10px;
@@ -1075,15 +1085,14 @@ select::-ms-expand {
   .purpleline {
     border-start-start-radius: 50%;
     border-end-end-radius: 50%;
-    background: #56bdaa;
     height: 77px;
     background-size: cover;
     position: relative;
     z-index: 2;
   }
   .text_block1 span {
-    font-size: 1.4em !important;
-    line-height: 2;
+    font-size: 2.2em !important;
+    line-height: 1.5;
   }
   .line_text2 font,
   .line_text font {
@@ -1156,8 +1165,8 @@ select::-ms-expand {
   }
 
   .woman_bl1 {
-    left: -263px;
-    top: 0;
+    left: -253px;
+    top: 2%;
     max-width: 376px;
   }
   .paint_bl1 {
