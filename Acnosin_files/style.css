@@ -81,7 +81,6 @@ video {
   padding: 0;
   border: 0;
   font: inherit;
-  font-size: 100%;
   vertical-align: baseline;
 }
 
@@ -1102,7 +1101,7 @@ select::-ms-expand {
     font-weight: bold;
   }
   .line_text {
-    width: 51%;
+    width: 50%;
     padding-top: 12px;
     padding-bottom: 32px;
     font-size: 13px;
@@ -1119,7 +1118,7 @@ select::-ms-expand {
     border-start-start-radius: 50%;
     border-end-end-radius: 50%;
     background: #56bdaa;
-    width: 51%;
+    width:50%;
     padding-top: 12px;
     padding-bottom: 32px;
     font-size: 13px;
@@ -1127,6 +1126,7 @@ select::-ms-expand {
     margin-left: 0px;
     padding-right: 23px;
     text-align: center;
+    position: relative;
   }
   .prod_bl5_mob {
     width: 100%;
@@ -1160,12 +1160,12 @@ select::-ms-expand {
   .woman_bl1_mob {
     display: block;
     position: absolute;
-    left: -228px;
+    left: -22px;
     top: 0;
   }
 
   .woman_bl1 {
-    left: -253px;
+    left: -223px;
     top: 2%;
     max-width: 376px;
   }
@@ -1263,13 +1263,12 @@ select::-ms-expand {
   .prod_bl2_mob {
     display: block;
     position: absolute;
-    left: 0;
     top: -90px;
   }
 
   .orange_bl2 {
     margin-top: -97px;
-    margin-left: -54px;
+    margin-left: -24px;
     width: 57%;
     padding-right: 7px;
     padding-bottom: 1px;
@@ -1278,8 +1277,8 @@ select::-ms-expand {
   .prod_bl2_mob {
     display: block;
     position: absolute;
-    left: 0;
-    top: -110px;
+    left: 1.2% !important;
+    top: -50px !important;
   }
 
   .text3_bl2 {
@@ -1486,7 +1485,7 @@ select::-ms-expand {
 
   .woman_bl3_mob {
     position: absolute;
-    left: -55px;
+    left: -19px;
   }
 
   .prod_bl3_mob {
