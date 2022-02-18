@@ -85,7 +85,7 @@ video {
 }
 
 html {
-  line-height: 1;
+  scroll-behavior: smooth;
 }
 
 ol,
@@ -124,6 +124,7 @@ body {
 }
 .block1 {
   min-height: 537px;
+  background: #fcf5ff;
 }
 .howtouse {
   width: 100%;
@@ -131,17 +132,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background:#56bdaa;
+  background: #56bdaa;
   color: #fff;
   line-height: 2;
 }
 
-.child  {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.child {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .each_how {
   display: flex;
@@ -149,6 +150,13 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+.each_how h2 {
+  border-bottom: #f9a717 5px solid;
+}
+.each_how li {
+  font-weight: bold;
+  font-size: 2em;
 }
 .limite {
   max-width: 945px;
@@ -264,9 +272,8 @@ body {
   padding-right: 20px;
   margin-bottom: 14px;
   position: relative;
-  left:-5%;
+  left: -5%;
   margin-top: 20px;
-
 }
 
 .line_text2 {
@@ -286,7 +293,7 @@ body {
   padding-right: 20px;
   position: relative;
   margin-top: 20px;
-  left:-5%
+  left: -5%;
 }
 .line_text3 {
   border-start-start-radius: 50%;
@@ -304,14 +311,14 @@ body {
   margin-bottom: 14px;
   padding-right: 20px;
   position: relative;
-  left:-5%;
+  left: -5%;
 }
 .text2_block1 {
   text-align: center;
   color: #484848;
   padding-top: 30px;
   font-size: 1.3em !important;
-  line-height: 2;
+  line-height: 3;
 }
 
 .text2_block1 span {
@@ -336,7 +343,7 @@ body {
 .pur_text_bl {
   display: inline-block;
   font-size: 22px;
-  width: 49%;
+  width: 100%;
   color: #56bdaa;
   font-weight: bold;
   padding-top: 27px;
@@ -349,6 +356,8 @@ body {
 }
 .pur_text_bl span {
   font-size: 1.2em !important;
+  margin: 10px 0 10px 0;
+  position: relative;
 }
 
 .btn {
@@ -486,13 +495,17 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-
 .leather_bl2 p {
   padding-top: 15px;
-  line-height: 20px;
+  line-height: 2;
   color: #484848;
 }
-
+.img_leather p,
+.img_leather2 p {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 2;
+}
 .block3 {
   padding-top: 115px;
   min-height: 575px;
@@ -705,7 +718,7 @@ body {
 
 .pureline_bl4 {
   background-color: #56bdaa;
-  margin-top: 38px;
+  margin-top: 0px;
 }
 
 .pureline_bl4 p {
@@ -929,11 +942,14 @@ select {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
+  .form_price p{
+    line-height: 2;
+    margin-bottom: 20px !important;
+  }
 .form_price span {
   font-size: 28px;
   margin-right: 15px;
-  color: #f9a717;
+  color: #81ff47;
 }
 
 .total_price {
@@ -1025,9 +1041,8 @@ select::-ms-expand {
 .after_before {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 .after_before .each_ab {
   width: 100%;
@@ -1036,6 +1051,9 @@ select::-ms-expand {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.each_ab p {
+  font-size: 1.2em;
 }
 .ab_images {
   display: flex;
@@ -1095,10 +1113,11 @@ select::-ms-expand {
   }
   .line_text2 font,
   .line_text font {
-    text-align: center;
-    left: -10%;
+    text-align: center !important;
+    left: -15%;
     position: relative;
     font-weight: bold;
+    font-size: 1.2em;
   }
   .line_text {
     width: 50%;
@@ -1118,7 +1137,7 @@ select::-ms-expand {
     border-start-start-radius: 50%;
     border-end-end-radius: 50%;
     background: #56bdaa;
-    width:50%;
+    width: 50%;
     padding-top: 12px;
     padding-bottom: 32px;
     font-size: 13px;
@@ -1186,11 +1205,9 @@ select::-ms-expand {
   }
 
   .text2_block1 {
-    font-size: 12px;
     padding-top: 5px;
-    padding-bottom: 23px;
   }
-
+ 
   .pur_text_bl {
     width: 80%;
     font-size: 12px;
@@ -1240,9 +1257,9 @@ select::-ms-expand {
   }
 
   .block2 {
-    margin-top: 65px;
+    margin-top: 0;
     min-height: 830px;
-    padding: 0px 5px;
+    padding: 0px 0px !important;
     font-weight: bold;
   }
 
@@ -1254,6 +1271,9 @@ select::-ms-expand {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 15px;
+    width: 60%;
+    background: none;
+    color: #000;
   }
 
   .prod_bl2 {
@@ -1290,7 +1310,7 @@ select::-ms-expand {
     font-size: 1.2em;
   }
   .block2 font {
-      font-weight: bold;
+    font-weight: bold;
   }
   .text2_bl2 {
     display: block;
@@ -1301,7 +1321,6 @@ select::-ms-expand {
     padding-top: 33px;
     width: 55%;
     font-size: 1.2em;
-
   }
 
   .text4_bl2 {
@@ -1377,9 +1396,9 @@ select::-ms-expand {
   .bef_aft2 {
     display: inline-block;
     padding-top: 10px;
-    font-size: 10px;
     margin-bottom: 20px;
-    width: 49%;
+    width: 100%;
+    font-size: 1.2em;
   }
 
   .bef_aft1 img {
@@ -1400,16 +1419,17 @@ select::-ms-expand {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .after_before .each_ab {
-    width: 100%;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .ab_images {
     display: flex;
     justify-content: center;
@@ -1417,9 +1437,10 @@ select::-ms-expand {
     position: relative;
   }
   .ab_images img {
-    width: 300px;
+    width: 350px;
     min-width: 350px;
     object-fit: cover;
+    height: 300px;
   }
   .ab_images .aft1::before {
     position: absolute;
@@ -1510,19 +1531,20 @@ select::-ms-expand {
   }
 
   .text_bl4 {
-    font-size: 18px;
+    font-size: 1.2em;
     border-right: 4px solid white;
     margin-left: 27px;
     padding-left: 75px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 0px;
+    padding-right: 5px;
     position: relative;
     margin-top: 45px;
   }
   .text_bl4 font {
     font-weight: bold;
     line-height: 1.5;
+    font-size: 1.2em;
   }
   .man_bl4 {
     display: none;
@@ -1603,24 +1625,27 @@ select::-ms-expand {
   .text2_bl5 {
     font-weight: bold;
     line-height: 1.5;
+    font-size: 2em;
   }
   .list_bl5 {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 50px;
     padding-left: 0px;
-    font-size: 17px;
+    font-size: 1.5em;
     color: #33014c;
   }
 
   .list_bl5 p {
-    line-height: 22px;
+    line-height: 1.5em;
     padding-bottom: 30px;
     display: inline-block;
-    width: 49%;
+    width: 100%;
     text-align: center;
     vertical-align: top;
-    font-size: 15px;
+    font-weight: bold;
   }
 
   .list_bl5 p:last-child {
