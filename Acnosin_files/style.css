@@ -1512,7 +1512,11 @@ select::-ms-expand {
     top: 60px !important;
     margin-right: 0px;
   }
-
+  .prod_bl3_mob img {
+    width:300px;
+    position: relative;
+    left: 50px;
+  }
   .paint_bl3_mob {
     position: absolute;
     left: -18px;
@@ -1624,14 +1628,14 @@ select::-ms-expand {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500px;
+    height: 60%;
+    padding-top: 20px;
   }
   .moreDeatils ul li {
     list-style: none;
-    width: 100%;
     background: #56bdaa;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     padding: 0 10px 0 0px;
     border-end-end-radius: 20%;
