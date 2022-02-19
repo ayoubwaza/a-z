@@ -30,6 +30,7 @@ $("#ordering").on("submit", function (e) {
         console.log("it worked");
       },
     });
+    fbq('track', 'Lead');
     request.always(function (e) {
       $inputs.prop("disabled", false);
       setTimeout(function () {

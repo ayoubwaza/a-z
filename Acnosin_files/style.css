@@ -97,7 +97,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+button {
+  font-family: "El Messiri", sans-serif;
 
+}
 caption,
 th,
 td {
@@ -359,7 +362,9 @@ body {
   margin: 10px 0 10px 0;
   position: relative;
 }
-
+.after_before {
+  flex-direction: column;
+}
 .btn {
   text-transform: uppercase;
   display: inline-block;
@@ -1628,7 +1633,7 @@ select::-ms-expand {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 60%;
+    height: 80%;
     padding-top: 20px;
   }
   .moreDeatils ul li {
