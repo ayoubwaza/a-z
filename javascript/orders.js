@@ -1,4 +1,5 @@
-const datgdb = "https://script.google.com/macros/s/AKfycbyJcLr9u4c2f0dycR6rquRXu-rOoAeKjdloEw9Ho18yfDd_CbHESWnEH6gtIaZZi573/exec";
+const datgdb =
+  "https://script.google.com/macros/s/AKfycbyJcLr9u4c2f0dycR6rquRXu-rOoAeKjdloEw9Ho18yfDd_CbHESWnEH6gtIaZZi573/exec";
 var request;
 $("#ordering").on("submit", function (e) {
   e.preventDefault();
@@ -14,6 +15,9 @@ $("#ordering").on("submit", function (e) {
   ) {
     alert("رقم الهاتف الذي تم إدخاله غير صحيح");
   } else {
+    document.getElementById("submitButton").style.opacity = "0.5";
+    document.getElementById("submitButton").style.pointerEvents = "none";
+    document.getElementById("submitButton").innerHTML = "المرجو الإنتظار...";
     var serializedData = $form.serialize();
     $inputs.prop("disabled", false);
     e.preventDefault();
