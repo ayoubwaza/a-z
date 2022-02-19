@@ -1089,9 +1089,12 @@ select::-ms-expand {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 0;
   }
   .prod_land img {
     object-fit: cover;
+    width: 100%;
   }
   .limite {
     max-width: 320px;
@@ -1319,6 +1322,10 @@ select::-ms-expand {
   }
   .block2 font {
     font-weight: bold;
+  }
+  .block2 {
+    width: 100%;
+    padding: 0 !important;
   }
   .text2_bl2 {
     display: block;
@@ -1663,7 +1670,6 @@ select::-ms-expand {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 50px;
     padding-left: 0px;
     font-size: 1.5em;
     color: #33014c;
@@ -1671,12 +1677,20 @@ select::-ms-expand {
 
   .list_bl5 p {
     line-height: 1.5em;
-    padding-bottom: 30px;
-    display: inline-block;
-    width: 100%;
+    font-size: 1em;
+    background: #56bdaa;
+    width:150px;
+    max-width: 150px;
+    min-width: 150px;
+    border-radius: 100%;
+    height:120px;
     text-align: center;
-    vertical-align: top;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 0 !important;
   }
 
   .list_bl5 p:last-child {
@@ -1795,11 +1809,13 @@ select::-ms-expand {
   }
 
   .text_bl6 {
-    font-size: 16px;
+    font-size: 1.3em;
     display: block;
     width: 100%;
     padding-top: 20px;
     margin: 0 auto;
+    margin: 0;
+    padding: 0;
   }
 
   .text_bl6 span {
@@ -1841,6 +1857,17 @@ select::-ms-expand {
     font-size: 14px;
   }
   .list_bl5 p {
-    font-size: 14px;
+    font-size: 1em;
+    background: #56bdaa;
+    width:150px;
+    border-radius: 100%;
+    height:120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 0 !important;
   }
 }
